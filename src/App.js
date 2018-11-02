@@ -9,6 +9,7 @@ import Posts from './components/Posts';
 import PostForm from './components/PostForm';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import TopPrices from './components/TopPrices';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
       <Provider store={store}>
         <div className="App">
           <Header />
+          <TopPrices />
 
           <PostForm />
           <Posts />

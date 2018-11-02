@@ -3,6 +3,11 @@
   height: 40vmin;
 }
 
+body {
+  min-height: 75rem;
+  padding-top: 5.4rem;
+}
+
 .footer {
     position: fixed;
     padding: 10px;
@@ -14,6 +19,17 @@
     text-align: center;
 }
 
+.topPrices {
+ background: #eee9e9;
+ color: black;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    display: flex;
+    justify-content: center;
+}
 .App-link {
   color: black;
 }
