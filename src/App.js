@@ -4,12 +4,13 @@ import './App.css';
 import {Provider} from 'react-redux';
 import {store} from './redux/store.js';
 
-
 import Posts from './components/Posts';
 import PostForm from './components/PostForm';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import TopPrices from './components/TopPrices';
+import LandingHeader from './components/LandingHeader';
+import LandingContent from './components/LandingContent';
 
 class App extends Component {
   render() {
@@ -18,10 +19,8 @@ class App extends Component {
         <div className="App">
           <Header />
           <TopPrices />
-
-          <PostForm />
-          <Posts />
-          <hr />
+          <LandingHeader />
+          <LandingContent />
           <Footer />
         </div>
       </Provider>
