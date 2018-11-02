@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import landingVideo from './../marketing/video/landing.mp4';
+import landingVideo from './../marketing/img/img_landing.jpg';
+// import landingVideo from './../marketing/video/landing.mp4';
 
 class LandingHeader extends Component {
     render() {
         return ( 
         <div className="LandingHeader masthead">
             <video playsInline="" loop="" muted="" autoPlay="">
-              <source src={landingVideo} type="video/mp4"/>
             </video>
 
             <div className="DDcentreColumn">
